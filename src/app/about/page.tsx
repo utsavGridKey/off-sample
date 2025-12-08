@@ -137,17 +137,16 @@ const About = () => {
           </div>
 
           <div className="self-stretch justify-center">
-            <span className="text-[#707070] text-xs font-medium font-['Poppins'] leading-5">
+            <span className="text-[#707070] text-sm font-medium font-['Poppins'] leading-5">
               We’re not here to be the biggest agency.
               <br />
               We’re here to be the most{" "}
             </span>
-            <span className="text-[#707070] text-xs font-bold font-['Poppins'] leading-5">
+            <span className="text-[#707070] text-sm font-bold font-['Poppins'] leading-5">
               useful{" "}
             </span>
-            <span className="text-[#707070] text-xs font-medium font-['Poppins'] leading-5">
+            <span className="text-[#707070] text-sm font-medium font-['Poppins'] leading-5">
               one.
-              <br />
               <br />
               Our work is driven by curiosity, clarity and a little bit of
               chaos. We believe great brands aren’t built by accident, they’re
