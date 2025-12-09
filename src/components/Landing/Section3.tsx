@@ -15,7 +15,7 @@ const Section3 = () => {
         {/* Left Graphic (hidden on small screens) */}
         <img
           loading="lazy"
-          src="/secondSectionLeft.svg"
+          src="/secondSectionLeft.webp"
           alt=""
           className="hidden lg:block"
         />
@@ -48,7 +48,7 @@ const Section3 = () => {
         </div>
         <img
           loading="lazy"
-          src="/doodleBottom.svg"
+          src="/doodleBottom.webp"
           alt=""
           className="doodle-bottom-image absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 lg:w-1/4"
         />
@@ -56,7 +56,7 @@ const Section3 = () => {
         {/* Right Graphic (hidden on small screens) */}
         <img
           loading="lazy"
-          src="/doodleRight.svg"
+          src="/doodleRight.webp"
           alt=""
           className="hidden lg:block"
         />

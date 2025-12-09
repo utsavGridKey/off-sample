@@ -64,7 +64,11 @@ const usePageHook = () => {
           scale: 100,
           opacity: 0,
           duration: 1,
+          onReverseComplete: () => {
+            if (videoRef.current) videoRef.current.pause();
+          },
         },
+
         "showNavbar",
       );
       tl.fromTo(
