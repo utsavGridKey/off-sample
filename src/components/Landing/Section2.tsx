@@ -18,7 +18,7 @@ const Section2 = () => {
         className="absolute w-full h-screen object-cover z-0"
       >
         <source
-          src={isSmallScreen ? "/video.mp4" : "mobileVideo.mp4"}
+          src={!isSmallScreen ? "/video.mp4" : "mobileVideo.mp4"}
           type="video/mp4"
         />
       </video>
