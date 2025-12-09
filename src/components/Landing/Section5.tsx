@@ -11,7 +11,7 @@ const Section5 = () => {
       <div className="opacity-0 fourth-card absolute w-[316px] lg:w-[677.01px] h-72 px-10 py-6 origin-top-left rotate-[-3.71deg] bg-yellow-600 rounded-4xl shadow-[4px_8px_28px_0px_rgba(0,0,0,0.25)] outline-2 outline-white inline-flex justify-start items-center gap-2 overflow-hidden">
         <img
           loading="lazy"
-          src="/instagram.svg"
+          src="/instagram.webp"
           alt=""
           className="absolute right-0 hidden lg:block"
         />
@@ -22,7 +22,7 @@ const Section5 = () => {
       <div className="opacity-0 fourth-card absolute  w-[316px] lg:w-[677.01px] h-72 px-10 py-6 origin-top-left rotate-[3.28deg] bg-black rounded-4xl shadow-[4px_8px_28px_0px_rgba(0,0,0,0.25)] outline-2 outline-white inline-flex justify-start items-center gap-2 overflow-hidden">
         <img
           loading="lazy"
-          src="/checklist.svg"
+          src="/checklist.webp"
           alt=""
           className="absolute right-0 hidden lg:block"
         />
@@ -33,7 +33,7 @@ const Section5 = () => {
       <div className="opacity-0 fourth-card absolute w-[316px] lg:w-[677.01px] h-72 px-10 py-6 origin-top-left rotate-[-6.77deg] bg-yellow-600 rounded-4xl shadow-[4px_8px_28px_0px_rgba(0,0,0,0.25)] outline-2 outline-white inline-flex justify-start items-center gap-2 overflow-hidden">
         <img
           loading="lazy"
-          src="/star.svg"
+          src="/star.webp"
           alt=""
           className="absolute right-0 hidden lg:block"
         />
@@ -44,7 +44,7 @@ const Section5 = () => {
       <div className="opacity-0 fourth-card absolute  w-[316px] lg:w-[677.01px] h-72 px-10 py-6 origin-top-left rotate-[4.84deg] bg-black rounded-4xl shadow-[4px_8px_28px_0px_rgba(0,0,0,0.25)] outline-2 outline-white inline-flex justify-start items-center gap-2 overflow-hidden">
         <img
           loading="lazy"
-          src="/trending.svg"
+          src="/trending.webp"
           alt=""
           className="absolute right-0 hidden lg:block"
         />

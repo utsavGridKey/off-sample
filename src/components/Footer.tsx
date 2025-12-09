@@ -21,9 +21,12 @@ const Footer = () => {
             data-theme="Dark Mode"
             className="flex justify-center items-center gap-1 overflow-hidden"
           >
-            <div className="justify-start text-white-600 text-sm font-medium font-['Poppins']">
+            <Link
+              href={"/about"}
+              className="justify-start text-white-600 text-sm font-medium font-['Poppins']"
+            >
               About Us
-            </div>
+            </Link>
           </div>
           <div
             data-dropdown-icon="false"
@@ -31,39 +34,12 @@ const Footer = () => {
             data-theme="Dark Mode"
             className="flex justify-center items-center gap-1 overflow-hidden"
           >
-            <div className="justify-start text-white-600 text-sm font-medium font-['Poppins']">
-              Terms & Conditions
-            </div>
-          </div>
-          <div
-            data-dropdown-icon="false"
-            data-status="Default"
-            data-theme="Dark Mode"
-            className="flex justify-center items-center gap-1 overflow-hidden"
-          >
-            <div className="justify-start text-white-600 text-sm font-medium font-['Poppins']">
-              Privacy Policy
-            </div>
-          </div>
-          <div
-            data-dropdown-icon="false"
-            data-status="Default"
-            data-theme="Dark Mode"
-            className="flex justify-center items-center gap-1 overflow-hidden"
-          >
-            <div className="justify-start text-white-600 text-sm font-medium font-['Poppins']">
-              Privacy Policy
-            </div>
-          </div>
-          <div
-            data-dropdown-icon="false"
-            data-status="Default"
-            data-theme="Dark Mode"
-            className="flex justify-center items-center gap-1 overflow-hidden"
-          >
-            <div className="justify-start text-white-600 text-sm font-medium font-['Poppins']">
-              Refund Policy
-            </div>
+            <Link
+              href={"/services"}
+              className="justify-start text-white-600 text-sm font-medium font-['Poppins']"
+            >
+              Services
+            </Link>
           </div>
         </div>
         <div className="flex justify-center items-center gap-8">

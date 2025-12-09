@@ -3,7 +3,7 @@
 import { useAppContext } from "@/utils/appContext";
 import { companiesData } from "@/utils/constants";
 import gsap from "gsap";
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const usePageHook = () => {
   const {
@@ -64,11 +64,13 @@ const usePageHook = () => {
           scale: 100,
           opacity: 0,
           duration: 1,
+          onComplete: () => {
+            videoRef.current?.play(); // play when animation reaches 100
+          },
           onReverseComplete: () => {
-            if (videoRef.current) videoRef.current.pause();
+            videoRef.current?.pause(); // pause when animation goes back to 1
           },
         },
-
         "showNavbar",
       );
       tl.fromTo(
@@ -151,6 +153,7 @@ const usePageHook = () => {
         {
           opacity: 1,
         },
+        "<",
       );
       tl.fromTo(
         cards,
@@ -211,6 +214,10 @@ const usePageHook = () => {
     });
 
     return () => ctx.revert();
+  }, []);
+
+  useEffect(() => {
+    if (videoRef.current) videoRef.current.pause();
   }, []);
 
   return {

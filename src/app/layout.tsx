@@ -59,7 +59,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/companyLogoWhite.svg" sizes="any" />
+      <link rel="icon" href="/offSocialFavicon.svg" sizes="any" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fjallaOne.variable} ${caveat.variable} ${poppins.variable} ${inter?.variable} antialiased relative w-screen`}
       >

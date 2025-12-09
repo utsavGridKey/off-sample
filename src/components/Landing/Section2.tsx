@@ -2,19 +2,24 @@ import { useAppContext } from "@/utils/appContext";
 
 const Section2 = () => {
   const { heroSectionRef, videoRef } = useAppContext();
+
+  const isSmallScreen = window.innerWidth > 600;
+
   return (
     <section
       ref={heroSectionRef}
       className="h-screen w-screen bg-red-900 opacity-0 absolute top-0"
     >
       <video
-        autoPlay
         loop
-        playsInline
         ref={videoRef}
+        playsInline
         className="absolute w-full h-screen object-cover z-0"
       >
-        <source src="/video.mp4" type="video/mp4" />
+        <source
+          src={isSmallScreen ? "/video.mp4" : "mobileVideo.mp4"}
+          type="video/mp4"
+        />
       </video>
     </section>
   );

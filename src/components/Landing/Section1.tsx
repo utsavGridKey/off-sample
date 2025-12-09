@@ -9,14 +9,14 @@ const Section1 = () => {
       className="relative w-full h-screen overflow-hidden"
     >
       <Image
-        src="/fullPageSvg.svg"
+        src="/fullPageSvg.webp"
         alt=""
         fill
         className="absolute inset-0 z-1 object-cover hidden md:flex"
         loading="lazy"
       />
       <Image
-        src="/landingPageMobile.svg"
+        src="/landingPageMobile.webp"
         alt=""
         fill
         className="absolute inset-0 z-1 object-cover flex  md:hidden"
