@@ -1,10 +1,9 @@
-"use client";
 import { useAppContext } from "@/utils/appContext";
 
 const Section2 = () => {
   const { heroSectionRef, videoRef } = useAppContext();
 
-  const isSmallScreen = window.innerWidth > 600;
+  const isSmallScreen = window && window.innerWidth > 600;
 
   return (
     <section
